@@ -1,4 +1,4 @@
-class Stack: 
+class DS_Stack: 
 
 # The __init__ method is a special method called a constructor.
 # It's automatically called when a new instance of the class is created.
@@ -38,7 +38,7 @@ if __name__ == "__main__":
             break
         if(input_raw.isdigit()):  
             input_capacity = int(input_raw)          
-            stack = Stack(input_capacity)
+            stack = DS_Stack(input_capacity)
             break
         else:
             print("Invalid input, please enter a valid integer number for capacity. Or type '0' to quit.")
